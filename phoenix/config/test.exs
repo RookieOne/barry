@@ -4,16 +4,17 @@ use Mix.Config
 # you can enable the server option below.
 config :barry, Barry.Endpoint,
   http: [port: 4001],
-  server: false
+  server: true
 
 # Print only warnings and errors during test
 config :logger, level: :warn
 
+# Configure hound
+config :hound, driver: "phantomjs"
+
 # Configure your database
 config :barry, Barry.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
   database: "barry_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
