@@ -17,6 +17,7 @@ defmodule Barry.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/styleguide", PageController, :styleguide
     resources "/flash_cards", FlashCardsController
   end
 
