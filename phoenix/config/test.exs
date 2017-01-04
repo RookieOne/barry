@@ -17,4 +17,6 @@ config :barry, Barry.Repo,
   adapter: Ecto.Adapters.Postgres,
   database: "barry_test",
   hostname: "localhost",
+  username: "postgres",
+  password: "password",
   pool: Ecto.Adapters.SQL.Sandbox

@@ -37,7 +37,7 @@ config :phoenix, :stacktrace_depth, 20
 config :barry, Barry.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "password",
   database: "barry_dev",
   hostname: "localhost",
   pool_size: 10
