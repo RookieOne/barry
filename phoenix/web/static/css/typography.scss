@@ -2,12 +2,13 @@ $h1: 3.998em;
 $h2: 2.827em;
 $h3: 1.999em;
 $h4: 1.414em;
+$font-family: 'Open Sans', serif;
 
 html {font-size: 1em;}
 
 body {
   background-color: white;
-  font-family: 'Open Sans', serif;
+  font-family: $font-family;
   font-weight: 400;
   line-height: 1.45;
   color: #333;

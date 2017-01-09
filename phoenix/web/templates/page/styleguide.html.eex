@@ -13,3 +13,17 @@ When I was a child, I saw my mother killed by something impossible. My father we
 </p>
 
 <h4>H4 I am the Flash</h4>
+
+<h2>Forms</h2>
+
+<form>
+  <input type="text" />
+  <input type="text" placeholder="Enter your name" />
+  <input type="text" value="Barry Allen" />
+</form>
+
+<h2>Buttons</h2>
+
+<input type="submit" value="Submit" />
+<button>Submit</button>
+<div class="btn">Submit</div>

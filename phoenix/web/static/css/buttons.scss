@@ -1,0 +1,13 @@
+@import "colors.scss";
+
+input[type="submit"], button, .btn {
+  border: 1px solid $border-color;
+  padding: 0.4em 0.8em;
+  line-height: 1.45;
+  background: rgba(0,0,0,0);
+  border-radius: 2px;
+}
+
+div.btn {
+  display: inline-block;
+}

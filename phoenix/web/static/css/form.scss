@@ -1,0 +1,11 @@
+@import "colors.scss";
+@import "typography.scss";
+
+input[type=text] {
+  border: 1px solid $border-color;
+  padding: 0.4em;
+  border-radius: 2px;
+  font-family: $font-family;
+  line-height: 1.45;
+  letter-spacing: -.003em;
+}
